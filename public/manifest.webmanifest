@@ -1,0 +1,18 @@
+{
+  "name": "Flip Clock",
+  "short_name": "유니구의 플립클락",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "description": "A simple Flip Clock built with Vite + React",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
