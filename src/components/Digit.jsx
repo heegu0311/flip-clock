@@ -8,7 +8,6 @@ const Digit = ({ digit }) => {
   const [lower, setLower] = useState(prevDigit);
   const [upper, setUpper] = useState(prevDigit);
   const [flip, setFlip] = useState(prevDigit);
-  const didRun = useRef(false);
   const container = useRef(null);
 
   useGSAP(
