@@ -13,10 +13,7 @@ const Digit = ({ digit }) => {
 
   useGSAP(
     async () => {
-      if (!didRun.current) {
-        setUpper(digit);
-      } // 이미 실행됨
-      didRun.current = true;
+      setUpper(digit);
 
       await gsap.fromTo(
         ".upper.flip",
